@@ -1,16 +1,16 @@
 // Calcola la somma dei primi 10 numeri di un array.
 
-let exampleArray = [];
+let myExampleArray = [];
 
 for (let i=1; i < 11; i++) {
-    exampleArray.push(i);
+    myExampleArray.push(i);
 }
-console.log(exampleArray);
+console.log(myExampleArray);
 
 let numbersSum = 0;
 
 for (let i = 0 ; i < 10 ; i++) {
-    numbersSum = numbersSum + exampleArray(i);
+    numbersSum = numbersSum + myExampleArray[i];
 }
 
 console.log(numbersSum);
