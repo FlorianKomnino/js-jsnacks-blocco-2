@@ -2,7 +2,7 @@
 
 let myExampleArray = [];
 
-for (let i=1; i < 11; i++) {
+for (let i=1; i < 101; i++) {
     myExampleArray.push(i);
 }
 console.log(myExampleArray);
@@ -13,7 +13,7 @@ let averageOperator = 0;
 
 let maxNumber = 0;
 
-for (let i = 0 ; i < 10 ; i++) {
+for (let i = 0 ; i < 100 ; i++) {
     numbersSum = numbersSum + myExampleArray[i];
     averageOperator += 1;
     if (maxNumber < myExampleArray[i]) {
