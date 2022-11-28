@@ -13,6 +13,6 @@ const lastnames = ['Cappelletti', 'Jager', 'Porcinelli' , 'Buffetti' , 'Forghier
 let fakeList = [];
 
 for ( let i = 0; i < names.length; i++) {
-     fakeList.push((names[parseInt(Math.random() * 10)]) + (lastnames[parseInt(Math.random() * 10)]))
+     fakeList.push((names[parseInt(Math.random() * 6)]) + " " + (lastnames[parseInt(Math.random() * 6)]))
     }
 console.log(fakeList);
